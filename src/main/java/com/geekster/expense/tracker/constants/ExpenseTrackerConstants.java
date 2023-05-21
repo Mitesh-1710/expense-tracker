@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 public class ExpenseTrackerConstants {
 
 	// User
-	public static final String USER_TABLE_NAME = "User";
+	public static final String USER_TABLE_NAME = "user";
 	public static final String USER_ID = "id";
 	public static final String USER_NAME = "name";
 	public static final String USER_EMAIL = "email";
@@ -27,14 +27,14 @@ public class ExpenseTrackerConstants {
 	public static final String USER_AUTHENTICATION_RESPONSE = "Authentication Successfull!";
 
 	// Authentication
-	public static final String AUTHENTICATION_TABLE_NAME = "Authentication";
+	public static final String AUTHENTICATION_TABLE_NAME = "authentication";
 	public static final String AUTHENTICATION_ID = "id";
 	public static final String AUTHENTICATION_TOKEN = "name";
 	public static final String AUTHENTICATION_CREATED_DATE = "created_date";
 	public static final String AUTHENTICATION_USER = "user_id";
 
 	// Product
-	public static final String PRODUCT_TABLE_NAME = "Product";
+	public static final String PRODUCT_TABLE_NAME = "product";
 	public static final String PRODUCT_ID = "id";
 	public static final String PRODUCT_TITLE = "title";
 	public static final String PRODUCT_DESCRIPTION = "description";

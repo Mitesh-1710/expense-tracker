@@ -12,7 +12,7 @@ import com.geekster.expense.tracker.entity.ProductEntity;
 @Repository
 public interface ProductRepository extends JpaRepository<ProductEntity, Long> {
 
-	@Query(value = "SELECT * FROM Product p WHERE p.date >= :startOfTheMonth AND p.date <= :endOfTheMonth", nativeQuery = true)
+	@Query(value = "SELECT * FROM product p WHERE p.date >= :startOfTheMonth AND p.date <= :endOfTheMonth", nativeQuery = true)
 	public List<ProductEntity> findAllProductsByMonth(LocalDate startOfTheMonth, LocalDate endOfTheMonth);
 
 	public List<ProductEntity> findAllByDate(LocalDate parse);
