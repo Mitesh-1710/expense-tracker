@@ -4,7 +4,7 @@
 
     ![SpringBoot](https://img.shields.io/badge/Framework-SpringBoot-green) ![Java](https://img.shields.io/badge/Language-Java-yellow)
     
-    ![SwaggerUi](https://img.shields.io/badge/SwaggerUi-http%3A%2F%2F16.16.90.182%3A8080%2Fswagger--ui%2Findex.html%23-brightgreen)
+    ![SwaggerUi](https://img.shields.io/badge/SwaggerUi-http%3A%2F%2F13.50.247.31%3A8080%2Fswagger--ui%2Findex.html%23-brightgreen)
     
 - Data Flow :
   1. Controller
